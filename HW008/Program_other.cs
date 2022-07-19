@@ -13,7 +13,7 @@ Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
 int b = -n;
 int i = b;
-
+Console.WriteLine($"Все числа от {b} до {n}: ");
 while (i <= n)
 {
 
