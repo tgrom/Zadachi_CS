@@ -6,7 +6,7 @@ if (a == b * b)
 {
     Console.WriteLine("Да");
 }
-if (b == a * a)
+else if (b == a * a)
 {
     Console.WriteLine("Да");
 }
