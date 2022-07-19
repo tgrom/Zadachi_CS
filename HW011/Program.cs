@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Введите число");
 int n = Convert.ToInt32(Console.ReadLine());
 
-if (n < 10)
+/*if (n < 10)
 {
     Console.WriteLine("Необходимо ввести число больше 9");
 }
@@ -16,3 +16,5 @@ else if (n >= 100 && n < 1000)
     Console.WriteLine(b);
 }
 else Console.WriteLine("Необходимо ввести число меньше 1000");
+*/
+Console.WriteLine(n % 100 / 10);
