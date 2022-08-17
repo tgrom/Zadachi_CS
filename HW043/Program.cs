@@ -1,7 +1,8 @@
 ﻿using System;
 Console.ReadLine();
 string s = Console.ReadLine();
-string[] ss = s.Split(' ');
+//string[] ss = s.Split(' ');
+string[] ss = s.Split(' ', StringSplitOptions.RemoveEmptyEntries);//удаляет пустые вхождения
 int[] a = Array.ConvertAll<string, int>(ss, int.Parse);
 
 
